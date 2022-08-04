@@ -1,4 +1,4 @@
-  internal class Bacon { }
+internal class Bacon { }
     internal class Coffee { }
     internal class Egg { }
     internal class Juice { }
@@ -32,7 +32,7 @@
         private static Task<Toast> ToastBreadAsync(int slices)
         {
             return Task.Run<Toast>(() => { return ToastBread(slices); });
-            
+
         }
 
         private static Bacon FryBacon(int slices)
@@ -61,7 +61,7 @@
             Console.WriteLine($" Thread : {Thread.CurrentThread.ManagedThreadId} Warming the egg pan...");
             Task.Delay(3000).Wait();
             Console.WriteLine($"Thread : {Thread.CurrentThread.ManagedThreadId}  cracking {howMany} eggs");
-            Console.WriteLine($"Thread: { Thread.CurrentThread.ManagedThreadId} cooking the eggs ...");
+            Console.WriteLine($"Thread: {Thread.CurrentThread.ManagedThreadId} cooking the eggs ...");
             Task.Delay(3000).Wait();
             Console.WriteLine($" Thread : {Thread.CurrentThread.ManagedThreadId}  Put eggs on plate");
 
@@ -82,7 +82,7 @@
             return new Coffee();
         }
 
-        private static void PrepareBreakfast()
+        public static void PrepareBreakfast()
         {
             Coffee cup = PourCoffee();
             Console.WriteLine("coffee is ready");
@@ -102,11 +102,18 @@
             Console.WriteLine("oj is ready");
             Console.WriteLine("Breakfast is ready!");
         }
+    }
+
+    internal class ProgramBegin
+    {
+
+        static void Main()
+        {
+            System.Diagnostics.Stopwatch _watch = new System.Diagnostics.Stopwatch();
+            _watch.Start();
+            BreakFastDemo.PrepareBreakfast();
+            _watch.Stop();
+            Console.WriteLine($"Time taken to prepare breakfast {_watch.Elapsed.TotalSeconds}");
         }
-        
-        internal class Program{
-        
-        static void Main(){
-        PrepareBreakfast();
-        }
-        }
+
+    }
