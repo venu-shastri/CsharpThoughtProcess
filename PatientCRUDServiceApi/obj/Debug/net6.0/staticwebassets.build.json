@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kgCPyVork+TX8SmrGswu1QwHnS1MD+WhaVe2LZa6tAo=",
+  "Source": "PatientCRUDServiceApi",
+  "BasePath": "_content/PatientCRUDServiceApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
