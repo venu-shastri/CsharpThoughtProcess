@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\AspnetCoreApp\\AspnetCoreApp.csproj",
+      "projectUniqueName": "E:\\CsharpThoughtProcess\\AspnetCoreApp\\AspnetCoreApp.csproj",
       "projectName": "AspnetCoreApp",
-      "projectPath": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\AspnetCoreApp\\AspnetCoreApp.csproj",
+      "projectPath": "E:\\CsharpThoughtProcess\\AspnetCoreApp\\AspnetCoreApp.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\AspnetCoreApp\\obj\\",
+      "outputPath": "E:\\CsharpThoughtProcess\\AspnetCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

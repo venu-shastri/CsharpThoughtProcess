@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "E:\\CsharpThoughtProcess\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "E:\\CsharpThoughtProcess\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\WebApplication2\\obj\\",
+      "outputPath": "E:\\CsharpThoughtProcess\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

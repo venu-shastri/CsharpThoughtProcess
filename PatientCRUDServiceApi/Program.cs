@@ -1,8 +1,15 @@
+using Microsoft.EntityFrameworkCore.InMemory;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
+
 var builder = WebApplication.CreateBuilder(args);
 
 //Service Registration
-//builder.Services.AddSingleton(typeof(PatientCRUDServiceApi.Repositories.IPatientDataRepository), typeof(PatientCRUDServiceApi.Repositories.LocalMemoryRepository));
+builder.Services.AddScoped(typeof(PatientCRUDServiceApi.Repositories.IPatientDataRepository), typeof(PatientCRUDServiceApi.Repositories.LocalDBRepository));
 builder.Services.AddControllers();
+builder.Services.AddDbContext<PatientCRUDServiceApi.DBContexts.PatientDBContext>(op => {
+    op.UseInMemoryDatabase("PatientList");
+});
 
 //Metadata Support
 builder.Services.AddEndpointsApiExplorer();
@@ -19,12 +26,16 @@ app.UseSwaggerUI();
 
 
 //Minimal Web Api
-app.MapGet("/api/patientdata/all", () => {
+app.MapGet("/api/patientdata/all", (PatientCRUDServiceApi.Repositories.IPatientDataRepository  _repo) => {
 
-    PatientCRUDServiceApi.Repositories.IPatientDataRepository _repo = new PatientCRUDServiceApi.Repositories.LocalMemoryRepository();
+   
     return _repo.GetAllPatients();
 
 
+});
+app.MapPost("/api/patientdata/add", (PatientCRUDServiceApi.Repositories.IPatientDataRepository _repo,[FromBody] PatientCRUDServiceApi.Models.PatientDataModel model) => {
+
+    return _repo.AddNewPatient(model);
 });
 
 app.Run();

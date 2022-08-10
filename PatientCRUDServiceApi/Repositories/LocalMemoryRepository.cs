@@ -1,4 +1,6 @@
-﻿namespace PatientCRUDServiceApi.Repositories
+﻿using PatientCRUDServiceApi.Models;
+
+namespace PatientCRUDServiceApi.Repositories
 {
     public class LocalMemoryRepository:IPatientDataRepository
     {
@@ -14,9 +16,19 @@
             return model.PatientId;
         }
 
+        public Task<string> AddNewPatientAsync(PatientDataModel model)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Models.PatientDataModel> GetAllPatients()
         {
             return this._patientList;
+        }
+
+        public Task<List<PatientDataModel>> GetAllPatientsAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

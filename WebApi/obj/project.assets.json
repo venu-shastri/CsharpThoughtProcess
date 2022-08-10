@@ -407,11 +407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "E:\\CsharpThoughtProcess\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\WebApi\\WebApi.csproj",
+      "projectPath": "E:\\CsharpThoughtProcess\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\WebApi\\obj\\",
+      "outputPath": "E:\\CsharpThoughtProcess\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

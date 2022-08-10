@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "33h4WFU2/4OW1T4CXesuFepNdKQfAtUW1f2NLhroJYyURc9t2PWUKM12eG8uz/dpFAtxXE1nYGdLe2Gsw+nWJQ==",
+  "dgSpecHash": "aK8wy3AJg1MUIGS8wzxWg0MFpUFgm0cwKhT7h8SqnOi5bfqnTISEQa6NfGN5Q5pwlFccYVtrn7/Dw9fyTzFV/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\AspnetCoreApp\\AspnetCoreApp\\AspnetCoreApp.csproj",
+  "projectFilePath": "E:\\CsharpThoughtProcess\\AspnetCoreApp\\AspnetCoreApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
