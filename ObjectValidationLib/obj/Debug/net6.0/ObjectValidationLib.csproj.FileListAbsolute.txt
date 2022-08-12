@@ -1,0 +1,12 @@
+E:\CsharpThoughtProcess\ObjectValidationLib\bin\Debug\net6.0\ObjectValidationLib.deps.json
+E:\CsharpThoughtProcess\ObjectValidationLib\bin\Debug\net6.0\ObjectValidationLib.dll
+E:\CsharpThoughtProcess\ObjectValidationLib\bin\Debug\net6.0\ObjectValidationLib.pdb
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ObjectValidationLib.csproj.AssemblyReference.cache
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ObjectValidationLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ObjectValidationLib.AssemblyInfoInputs.cache
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ObjectValidationLib.AssemblyInfo.cs
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ObjectValidationLib.csproj.CoreCompileInputs.cache
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ObjectValidationLib.dll
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\refint\ObjectValidationLib.dll
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ObjectValidationLib.pdb
+E:\CsharpThoughtProcess\ObjectValidationLib\obj\Debug\net6.0\ref\ObjectValidationLib.dll

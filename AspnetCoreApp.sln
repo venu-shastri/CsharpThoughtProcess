@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspnetCoreApp", "AspnetCoreApp\AspnetCoreApp.csproj", "{5CC9AA44-3ED2-4906-A9AD-26DA5D9B1CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCoreApp", "AspnetCoreApp\AspnetCoreApp.csproj", "{5CC9AA44-3ED2-4906-A9AD-26DA5D9B1CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspnetCoreAppOld", "AspnetCoreAppOld\AspnetCoreAppOld.csproj", "{D615BA05-772D-4962-A82E-5C342BD70F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCoreAppOld", "AspnetCoreAppOld\AspnetCoreAppOld.csproj", "{D615BA05-772D-4962-A82E-5C342BD70F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D4E243A7-D523-4133-9EE8-B512951C0CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D4E243A7-D523-4133-9EE8-B512951C0CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{61431CBD-B8A3-4574-9D24-9B4E3A41B440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{61431CBD-B8A3-4574-9D24-9B4E3A41B440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{23DEEF52-F0E5-4B04-8D53-D2988B4BCD10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{23DEEF52-F0E5-4B04-8D53-D2988B4BCD10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionDemo", "DependencyInjectionDemo\DependencyInjectionDemo.csproj", "{C53B818E-7EA6-4D86-9D69-3EEFF730303B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjectionDemo", "DependencyInjectionDemo\DependencyInjectionDemo.csproj", "{C53B818E-7EA6-4D86-9D69-3EEFF730303B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientCRUDServiceApi", "PatientCRUDServiceApi\PatientCRUDServiceApi.csproj", "{B0B4F141-9050-41D7-90E8-A1F0E95ED683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientCRUDServiceApi", "PatientCRUDServiceApi\PatientCRUDServiceApi.csproj", "{B0B4F141-9050-41D7-90E8-A1F0E95ED683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectValidationLib", "ObjectValidationLib\ObjectValidationLib.csproj", "{5E9171F3-52C6-4FA8-B5C6-7FC5CE7D7852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{1FEE6CCD-D3F9-453B-B1A8-FBE7AD7D1968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{B0B4F141-9050-41D7-90E8-A1F0E95ED683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0B4F141-9050-41D7-90E8-A1F0E95ED683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0B4F141-9050-41D7-90E8-A1F0E95ED683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9171F3-52C6-4FA8-B5C6-7FC5CE7D7852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9171F3-52C6-4FA8-B5C6-7FC5CE7D7852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9171F3-52C6-4FA8-B5C6-7FC5CE7D7852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9171F3-52C6-4FA8-B5C6-7FC5CE7D7852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEE6CCD-D3F9-453B-B1A8-FBE7AD7D1968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEE6CCD-D3F9-453B-B1A8-FBE7AD7D1968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEE6CCD-D3F9-453B-B1A8-FBE7AD7D1968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEE6CCD-D3F9-453B-B1A8-FBE7AD7D1968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
